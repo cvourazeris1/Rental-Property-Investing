@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PropertyAnalysis"
+version = "2025.04.24"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "pytest",
+    "pytest-watch"
+]
+authors = [
+    {name = "Caleb Vourazeris", email = "calebvourazeris@gmail.com"}
+]
+description = "Real Estate Investment Tool"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",
+]

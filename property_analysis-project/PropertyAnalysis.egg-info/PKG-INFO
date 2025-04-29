@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: PropertyAnalysis
+Version: 2025.4.24
+Summary: Real Estate Investment Tool
+Author-email: Caleb Vourazeris <calebvourazeris@gmail.com>
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: pytest-watch
