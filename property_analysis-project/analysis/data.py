@@ -8,6 +8,7 @@ def create_home_dict(home_price, monthly_rent, down_payment_percent, annual_inte
         'Home Price' : home_price,
         'Monthly Rent' : monthly_rent,
         'Down Payment Percent' : down_payment_percent,
+        'Loan Amount' : home_price*(1-down_payment_percent),
         'Annual Interest Rate' : annual_interest_rate,
         'Loan Term' : loan_term,
         'Number of Bathrooms' : num_bathrooms,
